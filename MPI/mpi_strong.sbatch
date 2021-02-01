@@ -10,4 +10,4 @@
 
 module load devtools/mpi/openmpi/3.1.4    # Modulo que contiene el software a usar
 
-mpirun -np 2 arms <<< 10000 # "10000" Cantidad de repeticiones
+mpirun -np 2 mpi_strong<<< 10000 # "10000" Cantidad de repeticiones
