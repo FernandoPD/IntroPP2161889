@@ -1,0 +1,2 @@
+Strong numbers in given range are: 1  2  145
+Tiempo de ejecucion = 5.571885
