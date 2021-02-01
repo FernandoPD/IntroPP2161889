@@ -11,9 +11,13 @@ luego tenemos que elegir 1, 4 y 5 ahora encontraremos el factorial de cada núme
 Se subieron los siguietes archivos:
 
 strong.c
+
 mpi_strong.c
+
 mpi_strong.sbatch
+
 readme.md
+
 ouput_mpi_strong.txt
 
 Ejecución del programa:
@@ -21,8 +25,12 @@ Ejecución del programa:
 En Guane:
 
 module load devtools/mpi/openmpi/3.1.4
+
 mpicc -lm mpi_strong.c -o mpi_strong(Compilar)
+
 ./mpi_strong (Ejecutar)
+
 sbatch mpi_strong.sbatch (ejecutar sbatch)
+
 output_strong.txt (ver salida)
 
